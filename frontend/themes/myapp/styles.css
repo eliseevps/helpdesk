@@ -1,0 +1,47 @@
+@import url('./main-layout.css');
+@import url('lumo-css-framework/all-classes.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+html {
+    --lumo-border-radius: 0.5em;
+    --lumo-font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+    --lumo-primary-text-color: rgb(255, 113, 5);
+    --lumo-primary-color-50pct: rgba(255, 113, 5, 0.5);
+    --lumo-primary-color-10pct: rgba(255, 113, 5, 0.1);
+    --lumo-error-text-color: rgb(246, 38, 35);
+    --lumo-error-color-50pct: rgba(246, 38, 35, 0.5);
+    --lumo-error-color-10pct: rgba(246, 38, 35, 0.1);
+    --lumo-success-text-color: rgb(84, 222, 110);
+    --lumo-success-color-50pct: rgba(84, 222, 110, 0.5);
+    --lumo-success-color-10pct: rgba(84, 222, 110, 0.1);
+    --lumo-primary-color: #ff7105;
+    --lumo-error-color: #f62623;
+    --lumo-success-color: #54DE6E;
+    --lumo-shade-5pct: rgba(44, 38, 22, 0.05);
+    --lumo-shade-10pct: rgba(44, 38, 22, 0.1);
+    --lumo-shade-20pct: rgba(44, 38, 22, 0.2);
+    --lumo-shade-30pct: rgba(44, 38, 22, 0.3);
+    --lumo-shade-40pct: rgba(44, 38, 22, 0.4);
+    --lumo-shade-50pct: rgba(44, 38, 22, 0.5);
+    --lumo-shade-60pct: rgba(44, 38, 22, 0.6);
+    --lumo-shade-70pct: rgba(44, 38, 22, 0.7);
+    --lumo-shade-80pct: rgba(44, 38, 22, 0.8);
+    --lumo-shade-90pct: rgba(44, 38, 22, 0.9);
+    --lumo-shade: hsl(42, 33%, 13%);
+    --lumo-tint-5pct: rgba(244, 238, 225, 0.05);
+    --lumo-tint-10pct: rgba(244, 238, 225, 0.1);
+    --lumo-tint-20pct: rgba(244, 238, 225, 0.2);
+    --lumo-tint-30pct: rgba(244, 238, 225, 0.3);
+    --lumo-tint-40pct: rgba(244, 238, 225, 0.4);
+    --lumo-tint-50pct: rgba(244, 238, 225, 0.5);
+    --lumo-tint-60pct: rgba(244, 238, 225, 0.6);
+    --lumo-tint-70pct: rgba(244, 238, 225, 0.7);
+    --lumo-tint-80pct: rgba(244, 238, 225, 0.8);
+    --lumo-tint-90pct: rgba(244, 238, 225, 0.9);
+    --vaadin-charts-color-0: #f62623;
+    --vaadin-charts-color-1: #54de6e;
+    --vaadin-charts-color-2: #3a9dfa;
+    --vaadin-charts-color-3: #ff7105;
+    --lumo-tint: #f4eee1;
+    --lumo-header-text-color: #5c4000;
+}
